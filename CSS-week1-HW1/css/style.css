@@ -1,4 +1,72 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* 1. Thẻ body: Sửa đổi họ phông chữ và kích thước phông chữ */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+/* 2. Thẻ header: Sửa đổi thuộc tính màu nền */
+header {
+    background-color: #00274c; /* Màu xanh Navy đậm */
+    padding: 20px;
+}
+
+/* 3. Thẻ h1: Sửa đổi căn chỉnh văn bản, họ phông chữ và thuộc tính màu sắc */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffffff; /* Chữ trắng */
+    margin: 0;
+}
+
+/* 4. Thẻ nav: Sửa đổi thuộc tính màu nền */
+nav {
+    background-color: #ffcb05; /* Màu vàng đậm */
+    padding: 10px;
+    text-align: center;
+}
+
+/* 5. Thẻ li: Sửa đổi thuộc tính hiển thị (display) và chiều rộng (width) */
+li {
+    display: inline-block;
+    width: 27%; /* Chia menu thành 3 cột hàng ngang */
+    text-align: center;
+}
+
+li a {
+    color: #00274c; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* 6. Thẻ main: Sửa đổi màu nền và thuộc tính kích thước phông chữ */
+main {
+    background-color: #ffffff; /* Nền trắng */
+    font-size: 18px;           
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;        
+}
+
+/* 7. Thẻ p: Sửa đổi thuộc tính chiều cao dòng (line-height) */
+p {
+    line-height: 1.6; 
+    color: #333333;   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* 8. Thẻ footer: Sửa đổi thuộc tính màu nền */
+footer {
+    background-color: #333333; /* Màu xám tối */
+    color: #ffffff;            
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
 }
